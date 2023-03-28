@@ -104,16 +104,17 @@ header .menu {
   border: 0;
   background-position: center;
   width: 100%;
+  height: 100%;
 }
 
 .intro::before{
-  background-image: url(../images/dec01.png);
+  background-image: url(/images/dec01.png);
   left: -452px;
   top: -85px;
 }
 
 .intro::after {
-  background-image: url(../images/dec02.png);
+  background-image: url(/images/dec02.png);
   right: -120px;
   top: -25px;
 }
@@ -184,4 +185,85 @@ header .menu {
   text-align: center;
   margin-bottom: 20px;
 }
+
+.section-01 .logos {
+  margin-bottom: 80px;
+}
 /* End Section01 */
+
+/* Start Features */
+.section-01 .features .main-img{
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.section-01 .features .content {
+  padding-right:160px ;
+}
+
+.section-01 .features .content .head {
+  margin-bottom: 70px;
+}
+
+.section-01 .features .content .head h3{
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.section-01 .features .content .head p{
+  font-size: 16px;
+  color: #616368;
+}
+
+.section-01 .features .content .items .item{
+  margin-bottom: 35px;
+}
+
+.section-01 .features .content .items .item .d-flex {
+  align-items: center;
+}
+
+.section-01 .features .content .items .item .d-flex figure{
+  width: 90px;
+  height: 90px;
+  margin: 0;
+  margin-right: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #ffecef;
+  flex:  0 0 auto;
+  text-align: center;
+  line-height: 90px;
+}
+
+.section-01 .features .content .items .item:nth-child(2) .d-flex figure{
+  background-color: #f4f4ff;
+}
+
+.section-01 .features .content .items .item:nth-child(3) .d-flex figure{
+  background-color: #e4ffee;
+}
+
+.section-01 .features .content .items .item .d-flex .caption h5{
+  font-weight: 600;
+  color: #f55767;
+}
+
+.section-01 .features .content .items .item:nth-child(2) .d-flex .caption h5{
+  color: #2563ff;
+}
+
+.section-01 .features .content .items .item:nth-child(3) .d-flex .caption h5{
+  color: #40975f;
+}
+
+.section-01 .features .content .items .item .d-flex .caption p{
+  margin: 0;
+  color: #616368;
+}
+/* End Features */
