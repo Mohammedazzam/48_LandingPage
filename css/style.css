@@ -705,3 +705,53 @@ header .menu {
   width: 100%;
 }
 /* Start Section-08 */
+
+
+/* Start Footer */
+footer {
+  background-color: #09142e;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+footer .logo h3{
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+footer .logo h3 span,
+footer ul.menu li a:hover{
+  color: #fcae61;
+}
+
+footer ul.menu {
+  margin-bottom: 35px;
+}
+
+footer ul.menu li a {
+  color: #fff;
+  display: block;
+}
+
+footer ul.menu li:not(:last-child) a,footer ul.social li:not(:last-child) a {
+  margin-right: 25px;
+}
+
+footer ul.social li a {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+footer ul.social li a:hover {
+  opacity: 1;
+}
+footer p {
+  opacity: 0.5;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 60px;
+}
+/* End Footer */
