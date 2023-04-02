@@ -684,3 +684,24 @@ header .menu {
   padding-bottom: 25px;
 }
 /* End Section-07 */
+
+
+/* Start Section-08 */
+
+.section-08 {
+  border-top:1px solid #ddd ;
+  padding-top: 60px;
+}
+
+.section-08 .head h2 {
+  font-size: 50px;
+}
+
+.section-08 .head ul li a {
+  margin-right: 30px;
+}
+
+.section-08 .col-md-6 figure img {
+  width: 100%;
+}
+/* Start Section-08 */
